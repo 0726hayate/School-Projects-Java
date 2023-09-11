@@ -41,7 +41,7 @@ This supporting class contains methods and data structures for managing patient 
 ### Patient.java
 This class represents a general patient and includes attributes such as patient ID, name, age, gender, and medical history. It also provides methods to access and modify these attributes. Additionally, it includes a method to display patient attributes.
 
-#### Inpatient.java
+### Inpatient.java
 This class extends the Patient class and represents an inpatient. It includes attributes specific to inpatients such as admission date and estimated stay. It overrides the disRec method to provide custom information for inpatients.
 
 ### Outpatient.java
