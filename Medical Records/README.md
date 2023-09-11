@@ -25,8 +25,10 @@ This Java program, along with the supporting classes main.java, MedicalRecords.j
 3. Choose an option by entering the corresponding number and follow the prompts to perform the desired task.
 4. Repeat as needed, and use the "0. Exit" option to exit the program.
 ## Class Structure
+
 ### main.java
 This class contains the main program logic, including the menu system for interacting with the Medical Records Management System.
+
 ### MedicalRecords.java
 This supporting class contains methods and data structures for managing patient records. It includes:
 
@@ -35,8 +37,10 @@ This supporting class contains methods and data structures for managing patient 
 + A method for searching for patient records by ID.
 + A method for printing all patient records.
 + A method for calculating the average age of patients.
+  
 ### Patient.java
 This class represents a general patient and includes attributes such as patient ID, name, age, gender, and medical history. It also provides methods to access and modify these attributes. Additionally, it includes a method to display patient attributes.
+
 #### Inpatient.java
 This class extends the Patient class and represents an inpatient. It includes attributes specific to inpatients such as admission date and estimated stay. It overrides the disRec method to provide custom information for inpatients.
 
